@@ -2,7 +2,6 @@
 import { useContext, useState } from 'react';
 import styles from './NotesLeft.module.css'
 import myContext from '../Contexts/mycontext';
-// import myContext from '../Contexts/mycontext'
 
 const NotesLeft = ({noteName,bgClr,data,isSelected,onSelect,onToggleNoteChk}) => {
 
