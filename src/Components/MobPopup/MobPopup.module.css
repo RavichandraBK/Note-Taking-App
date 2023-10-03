@@ -1,0 +1,43 @@
+.Popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Popup p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.PopupText input {
+    width: 100%;
+    height: 40px;
+    border-radius: 22px;
+    margin-top: 15px;
+    border: 2px solid #cccccc;
+    padding: 10px;
+}
+
+.PopupText input::placeholder {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #979797;
+}
+
+.PopupColor div {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+}
